@@ -1,10 +1,10 @@
-# M-Ligue Results Tournament
+# M-Ligue Results Analysis
 
 ## Introduction
 
 I am an active player of a sports version of the popular intellectual game What?Where?When? (WWW, Что?Где?Когда?, ЧГК).
 
-During the pandemic, the online format of the game became more popular. One of the most attended tournaments is [M-ligue](https://chgk-world.ru/), where any team can register and participate in any game.
+During the pandemic, the online format of the game became more popular. One of the most attended tournaments is [M-ligue](https://chgk-world.ru/), where any team can register and participate in any game. I decided to make an analysis for our team.
 
 ## Problem statement
 
@@ -25,7 +25,11 @@ After every game, a result table is published on [M-Ligue platform](https://chgk
 
 ## Data cleaning
 
-Results tables that are downloaded from the internet are not intended for analysis, so first I manipulated the data so I could build a dashboard based on it. We have also the Answers table, which is connected with the Results table on Tournament and the Number of questions. Additionally, we have a table with the number of players on our team, who participated in games.
+Results tables that are downloaded from the internet (and can be seen in _Example of Game_ results file) are not intended for analysis, so first I manipulated the data so I could build a dashboard based on it. The result of this transformation is in _Consolidated_ file.
+
+We have also the _Answers_ table, which is connected with the _Consolidated_ table on Tournament and the Number of questions. Additionally, we have a _Team list_ table with the number of players on our team, who participated in games.
+
+The process of transforming downloaded file with Results is [here (ipynb format)](https://github.com/marsel-khusnutdin/M-Ligue/blob/main/M-ligue%20results.ipynb).
 
 ## Data visualization
 
@@ -34,7 +38,7 @@ Results tables that are downloaded from the internet are not intended for analys
 
 ![Visual 2](https://user-images.githubusercontent.com/72653236/182588471-7b600cd9-5166-48d0-a653-5b97a49df0ca.JPG)
 
-[Interact with the dashboard here](https://public.tableau.com/app/profile/marsel.khusnutdinov7184/viz/M-LigueResults2022/DashboardMain?publish=yes)
+[Interact with the dashboard on the Tableau Public here](https://public.tableau.com/app/profile/marsel.khusnutdinov7184/viz/M-LigueResults2022/DashboardMain?publish=yes)
 
 ## Conclusions
 
