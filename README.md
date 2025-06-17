@@ -28,12 +28,12 @@ After each game, a results table is published on the [M-Ligue platform](https://
 
 ## Data cleaning
 
-The results tables downloaded from the internet (see “Example of Game Results” file) are not structured for analysis. Therefore, I first transformed the data to build a usable dashboard. The cleaned and structured data is available in the “Consolidated” file.
+The results tables downloaded from the internet (see “_Raw Game Result Example_” file) are not structured for analysis. Therefore, I first transformed the data to build a usable dashboard. The cleaned and structured data is available in the “_Consolidated_” file.
 
 Additionally, we have:
 
-- An Answers table, linked to the Consolidated table by tournament and question number
-- A Team List table that records how many team members participated in each game
+- A _Recorded Answers_ file, linked to the _Consolidated_ file by tournament and question number
+- A _Team Composition_ file that records how many team members participated in each game
 
 The full data transformation process is documented in a [Jupyter notebook (.ipynb format)](https://github.com/marsel-khusnutdin/M-Ligue/blob/main/M-ligue%20results.ipynb).
 
