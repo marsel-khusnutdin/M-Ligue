@@ -8,7 +8,7 @@ During the pandemic, the online format of the game gained popularity. One of the
 
 ## Problem statement
 
-Our team has been participating in these online tournaments for almost a year, with games taking place weekly. While each game has its own result table, there is no summary table aggregating results across games—something commonly found in recurring, championship-style competitions.
+Our team has been participating in these online tournaments for almost a year, with games taking place weekly. While each game has its own result table, there is no summary table aggregating results across games, which is something commonly found in recurring, championship-style competitions.
 
 What interests me most is understanding how our team performs in terms of question difficulty:
 
@@ -35,7 +35,7 @@ Additionally, we have:
 - A _Recorded Answers_ file, linked to the _Consolidated_ file by tournament and question number
 - A _Team Composition_ file that records how many team members participated in each game
 
-The full data transformation process is documented in a [Jupyter notebook (.ipynb format)](https://github.com/marsel-khusnutdin/M-Ligue/blob/main/M-ligue%20results.ipynb).
+The full data transformation process is documented in a [Jupyter notebook (.ipynb format)](https://github.com/marsel-khusnutdin/M-Ligue/blob/main/results_transformation.ipynb)).
 
 
 
@@ -59,7 +59,7 @@ The full data transformation process is documented in a [Jupyter notebook (.ipyn
     ![Visual 4](https://user-images.githubusercontent.com/72653236/182593504-96ddac30-3206-4e8c-899b-3f5241aa6693.JPG)
 
 
-- **Performance by Tournament Complexity:** We perform better in simpler tournaments, relative to other teams. Our most successful games—on June 3 and July 2—were from relatively easy question sets.
+- **Performance by Tournament Complexity:** We perform better in simpler tournaments, relative to other teams. Our most successful games (on June 3 and July 2) were from relatively easy question sets.
 - **Question Rating Insights:** Contrary to my initial assumption, we don’t perform catastrophically on high-difficulty questions. Comparable teams actually answer fewer of those correctly. However, they tend to outperform us on medium-difficulty questions (50–60% correctness rate).
 - **Team Composition:** There is a clear correlation between the number of players and our performance. Most of our weaker games were played with only 5 members (see red rectangle), while our strongest results came with 6 players (green rectangle).
 
