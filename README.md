@@ -41,6 +41,12 @@ The full data transformation process is documented in a [Jupyter notebook (.ipyn
 
 ## Data visualization
 
+Before building the visualizations in Tableau, it’s worth creating a layout to plan how the containers and visuals will be structured.
+
+<img width="1904" height="1067" alt="image" src="https://github.com/user-attachments/assets/ffe043c9-baa6-4ad5-b904-451e054e58a5" />
+
+After that, I connected the Consolidated.xlsx file to Tableau and build the visualizations based on the planned layout.
+
 ![Visual 1](https://user-images.githubusercontent.com/72653236/182588458-d856eb3d-73f8-47c1-ba03-e943329f5672.JPG)
 
 
