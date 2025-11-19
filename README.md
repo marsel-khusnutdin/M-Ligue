@@ -43,7 +43,8 @@ The full data transformation process is documented in a [Jupyter notebook (.ipyn
 
 Before building the visualizations in Tableau, it’s worth creating a layout to plan how the containers and visuals will be structured.
 
-<img width="1904" height="1067" alt="image" src="https://github.com/user-attachments/assets/ffe043c9-baa6-4ad5-b904-451e054e58a5" />
+![Layout](https://github.com/user-attachments/assets/dd783591-6c73-4efa-99d1-493fe69628f2)
+
 
 After that, I connected the Consolidated.xlsx file to Tableau and build the visualizations based on the planned layout.
 
@@ -58,11 +59,13 @@ After that, I connected the Consolidated.xlsx file to Tableau and build the visu
 
 - **Team Progress:** There is a slight upward trend in our performance. However, this does not apply to league finals (tournaments with 48 questions). In fact, our performance in these has declined over time (see red dots and trend line). This might be due to fatigue or incomplete team participation.
 
-    ![Visual 3](https://user-images.githubusercontent.com/72653236/182592848-0ebfcb63-6ffc-49f4-a3d1-b445fcdf0405.JPG)
+    ![Visual 3](https://github.com/user-attachments/assets/e59bf2c4-2b1c-4f78-9f58-70ea3b6bed66)
+
 
 - **Challenging Questions:** Starting in May, we began to occasionally answer highly difficult questions (answered correctly by <10% of teams). From May to July, we correctly answered 3 such questions, compared to 0 before that.
 
-    ![Visual 4](https://user-images.githubusercontent.com/72653236/182593504-96ddac30-3206-4e8c-899b-3f5241aa6693.JPG)
+    ![Visual 4](https://github.com/user-attachments/assets/bf85fa44-937a-4655-8c6b-8d86ceb974cd)
+
 
 
 - **Performance by Tournament Complexity:** We perform better in simpler tournaments, relative to other teams. Our most successful games (on June 3 and July 2) were from relatively easy question sets.
